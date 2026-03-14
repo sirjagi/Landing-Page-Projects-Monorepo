@@ -37,14 +37,16 @@ const Footer = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="relative rounded-[3rem] overflow-hidden bg-linear-to-br from-indigo-900/30 to-slate-900/30 border border-indigo-500/20 p-12 md:p-24 text-center mb-24 group"
+          className="relative rounded-[3rem] overflow-hidden 
+          bg-linear-to-br from-indigo-900/30 to-slate-900/30 border
+           border-indigo-500/20 px-6 py-12 sm:p-12 md:p-24 text-center mb-24 group"
         >
           {/* Internal Glows */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-indigo-500/20 blur-[100px] rounded-full pointer-events-none group-hover:bg-indigo-500/30 transition-colors duration-700" />
 
           <div className="relative z-10 max-w-3xl mx-auto">
             <h2
-              className="text-4xl md:text-6xl font-bold text-white 
+              className="text-3xl md:text-6xl font-bold text-white 
               mb-6 tracking-tight select-none"
             >
               Ready to clear out <br />
