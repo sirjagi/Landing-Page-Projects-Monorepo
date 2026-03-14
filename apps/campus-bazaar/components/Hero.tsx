@@ -47,7 +47,7 @@ const HeroOptionA_Background = () => {
               <span className="select-none">Official Campus Marketplace</span>
             </Badge>
             <h1
-              className="text-5xl sm:text-6xl lg:text-8xl font-bold
+              className="text-4xl sm:text-6xl lg:text-8xl font-bold
              text-white mt-6 mb-6 leading-[1] tracking-tight select-none"
             >
               Your Campus. <br />
